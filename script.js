@@ -12,7 +12,7 @@ let x = 100;
 searchForm.addEventListener("submit", (e)=>{
     e.preventDefault();
 
-    const apiKey = "fe982205ce99e8f378cf9ecceb2dcc23";
+    const apiKey = "[YOUR_API_KEY_HERE]";
     const input = search.value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${input}&APPID=${apiKey}&units=metric`;
     fetch(url)
