@@ -50,3 +50,57 @@ p{
 .searchbar:focus{
     outline: none;
 }
+
+.btn{
+    display: none;
+}
+
+.content{
+    margin-top: 50px;
+    height:500px;
+    width: 750px;
+    border: 2px white transparent;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, .40);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.location{
+    width: 100%;
+    text-align: center;
+}
+
+.icon{
+    width: 300px;
+    height: 300px;
+}
+
+.weatherinfo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.leftdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.rightdiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.temp{
+    font-size: 128px;
+    margin: 0;
+    width: 80%;
+    border-bottom: 4px white solid;
+}
