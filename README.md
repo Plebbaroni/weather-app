@@ -1,2 +1,2 @@
 # weather-app
-Simple weather app using OpenWeatherMap's API.
+Simple weather app made using OpenWeatherMap's API.
