@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+p{
+    margin: 0;
+}
+
+.masterdiv{
+    height: 100%;
+    width: 100%;
+    background-color: #38B6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    height: 10%;
+    width: 90%;
+    border: 0;
+    border-bottom: 4px white solid;
+}
+
+.magnifying{
+    height: 50%;
+    margin-right: 2%;
+}
+
+.searchbar{
+    border: 0;
+    width: 90%;
+    height: 100%;
+    background: none;
+    font-size: 36px;
+    color: white;
+}
+
+.searchbar::placeholder{
+    color: white;
+}
+
+.searchbar:focus{
+    outline: none;
+}
